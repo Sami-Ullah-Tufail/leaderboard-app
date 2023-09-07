@@ -83,9 +83,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **book store**
-- **add and remove books**
-- **display all books**
+- **Add scores*
+- **Rank scores accordingly**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
