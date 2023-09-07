@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 5% 5%;
+  padding-left: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 16%;
+}
+
+.card {
+  width: 40%;
+}
+
+.score-list {
+  list-style: none;
+  border: 2px solid black;
+  margin-top: 17px;
+}
+
+.score-list li:nth-child(even) {
+  background-color: rgb(207, 229, 247); /* Red */
+}
+
+.add-new {
+  width: 30%;
+  margin-top: 10%;
+  display: grid;
+  gap: 5%;
+}
+
+#add-btn {
+  width: 50px;
+  margin-left: 73%;
+}
