@@ -33,14 +33,12 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -52,7 +50,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖leaderboard-app<a name="about-project"></a>
 
-**leaderBoard** is a score storing and ranking site
+**leaderBoard** is a score-storing and ranking site. A person can basically come on the website and enter his/her score and the site will tell them their ranking.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -137,12 +135,6 @@ To run the project, execute the following command:
 ### Run tests
 
 - No tests here 😊
-
-### Deployment
-
-You can deploy this project using:
-
-- Non deployable ⚠
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
