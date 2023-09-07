@@ -143,7 +143,7 @@ To run the project, execute the following command:
 
 👤 **sami ullah tufail**
 
-- GitHub: [](https://github.com/Sami-Ullah-Tufail/leaderboard-app/issues)
+- GitHub: (https://github.com/Sami-Ullah-Tufail)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
