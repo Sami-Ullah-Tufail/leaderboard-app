@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.css":
-/*!*****************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.css ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.css":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.css ***!
+  \****************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -28,7 +28,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
 }
 
 .container {
-  width: 100%;
   margin: 5% 5%;
   padding-left: 5%;
   display: grid;
@@ -58,14 +57,28 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
 .add-new {
   width: 30%;
   margin-top: 10%;
-  display: grid;
-  gap: 5%;
 }
 
 #add-btn {
   width: 50px;
   margin-left: 73%;
-}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,UAAA;EACA,SAAA;AACJ;;AAEE;EACE,WAAA;EACA,aAAA;EACA,gBAAA;EACA,aAAA;EACA,8BAAA;AACJ;;AAEE;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AACJ;;AAEE;EACE,UAAA;AACJ;;AAEE;EACE,gBAAA;EACA,uBAAA;EACA,gBAAA;AACJ;;AAEE;EACE,oCAAA,EAAA,QAAA;AACJ;;AAEE;EACE,UAAA;EACA,eAAA;EACA,aAAA;EACA,OAAA;AACJ;;AAEE;EACE,WAAA;EACA,gBAAA;AACJ","sourcesContent":["* {\r\n    box-sizing: border-box;\r\n    padding: 0;\r\n    margin: 0;\r\n  }\r\n  \r\n  .container {\r\n    width: 100%;\r\n    margin: 5% 5%;\r\n    padding-left: 5%;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n  }\r\n  \r\n  .card-header {\r\n    display: grid;\r\n    grid-template-columns: 2fr 1fr;\r\n    margin-top: 16%;\r\n  }\r\n  \r\n  .card {\r\n    width: 40%;\r\n  }\r\n  \r\n  .score-list {\r\n    list-style: none;\r\n    border: 2px solid black;\r\n    margin-top: 17px;\r\n  }\r\n  \r\n  .score-list li:nth-child(even) {\r\n    background-color: rgb(207, 229, 247); /* Red */\r\n  }\r\n  \r\n  .add-new {\r\n    width: 30%;\r\n    margin-top: 10%;\r\n    display: grid;\r\n    gap: 5%;\r\n  }\r\n  \r\n  #add-btn {\r\n    width: 50px;\r\n    margin-left: 73%;\r\n  }"],"sourceRoot":""}]);
+}
+
+#my-form {
+  margin-top: 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 15%;
+}
+
+footer {
+  border: 2px solid black;
+  background-color: aqua;
+  padding: 0.2em;
+  position: fixed;
+  bottom: 0.4em;
+  width: 100%;
+}`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,sBAAA;EACA,UAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,gBAAA;EACA,aAAA;EACA,8BAAA;AACF;;AAEA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AACF;;AAEA;EACE,UAAA;AACF;;AAEA;EACE,gBAAA;EACA,uBAAA;EACA,gBAAA;AACF;;AAEA;EACE,oCAAA,EAAA,QAAA;AACF;;AAEA;EACE,UAAA;EACA,eAAA;AACF;;AAEA;EACE,WAAA;EACA,gBAAA;AACF;;AAEA;EACE,cAAA;EACA,aAAA;EACA,2BAAA;EACA,QAAA;AACF;;AAEA;EACE,uBAAA;EACA,sBAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,WAAA;AACF","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\n.container {\r\n  margin: 5% 5%;\r\n  padding-left: 5%;\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n}\r\n\r\n.card-header {\r\n  display: grid;\r\n  grid-template-columns: 2fr 1fr;\r\n  margin-top: 16%;\r\n}\r\n\r\n.card {\r\n  width: 40%;\r\n}\r\n\r\n.score-list {\r\n  list-style: none;\r\n  border: 2px solid black;\r\n  margin-top: 17px;\r\n}\r\n\r\n.score-list li:nth-child(even) {\r\n  background-color: rgb(207, 229, 247); /* Red */\r\n}\r\n\r\n.add-new {\r\n  width: 30%;\r\n  margin-top: 10%;\r\n}\r\n\r\n#add-btn {\r\n  width: 50px;\r\n  margin-left: 73%;\r\n}\r\n\r\n#my-form {\r\n  margin-top: 5%;\r\n  display: grid;\r\n  grid-template-rows: 1fr 1fr;\r\n  gap: 15%;\r\n}\r\n\r\nfooter {\r\n  border: 2px solid black;\r\n  background-color: aqua;\r\n  padding: 0.2em;\r\n  position: fixed;\r\n  bottom: 0.4em;\r\n  width: 100%;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -191,10 +204,10 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/styles.css":
-/*!************************!*\
-  !*** ./src/styles.css ***!
-  \************************/
+/***/ "./src/style.css":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -213,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.css");
 
       
       
@@ -235,12 +248,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_styles_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -510,6 +523,43 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/script.js":
+/*!***********************!*\
+  !*** ./src/script.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   addToList: () => (/* binding */ addToList),
+/* harmony export */   showScores: () => (/* binding */ showScores)
+/* harmony export */ });
+const scoreList = document.querySelector('#score-list');
+
+const addToList = async (score) => {
+  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/8De87jAi3jjs/scores/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(score),
+  });
+};
+
+const showScores = (scores) => {
+  scoreList.innerHTML = '';
+  scores.forEach((score) => {
+    const listItem = document.createElement('li');
+    listItem.textContent = `${score.user}: ${score.score}`;
+    listItem.classList.add('list');
+    scoreList.appendChild(listItem);
+  });
+};
+
+
+
 /***/ })
 
 /******/ 	});
@@ -592,8 +642,42 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _script_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./script.js */ "./src/script.js");
 
+ // Import everything from script.js
+
+const myForm = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const scoreInput = document.querySelector('#point');
+const refBtn = document.querySelector('#ref-btn');
+
+const submitForm = async (event) => {
+  event.preventDefault();
+  if (!nameInput.value || !scoreInput.value) {
+    return;
+  }
+  try {
+    await _script_js__WEBPACK_IMPORTED_MODULE_1__.addToList({ user: nameInput.value, score: scoreInput.value });
+    nameInput.value = '';
+    scoreInput.value = '';
+  } catch (error) {
+    console.error('Error submitting form:', error);
+  }
+};
+
+const fetchData = async () => {
+  try {
+    const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/8De87jAi3jjs/scores/');
+    const data = await response.json();
+    _script_js__WEBPACK_IMPORTED_MODULE_1__.showScores(data.result);
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+};
+
+myForm.addEventListener('submit', submitForm);
+refBtn.addEventListener('click', fetchData);
 })();
 
 /******/ })()
