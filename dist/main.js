@@ -21,27 +21,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+___CSS_LOADER_EXPORT___.push([module.id, `header,
+footer {
+  background-color: #007bff;
 }
 
-.container {
-  margin: 5% 5%;
-  padding-left: 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.card-header {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-top: 16%;
-}
-
-.card {
-  width: 40%;
+.main-card {
+  margin-top: 4%;
+  margin-left: 3%;
 }
 
 .score-list {
@@ -50,35 +37,17 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
   margin-top: 17px;
 }
 
+.score-list li {
+  margin-left: -30px;
+}
+
 .score-list li:nth-child(even) {
   background-color: rgb(207, 229, 247); /* Red */
 }
 
-.add-new {
-  width: 30%;
-  margin-top: 10%;
-}
-
-#add-btn {
-  width: 50px;
-  margin-left: 73%;
-}
-
-#my-form {
-  margin-top: 5%;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 15%;
-}
-
 footer {
-  border: 2px solid black;
-  background-color: aqua;
-  padding: 0.2em;
-  position: fixed;
-  bottom: 0.4em;
-  width: 100%;
-}`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,sBAAA;EACA,UAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,gBAAA;EACA,aAAA;EACA,8BAAA;AACF;;AAEA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AACF;;AAEA;EACE,UAAA;AACF;;AAEA;EACE,gBAAA;EACA,uBAAA;EACA,gBAAA;AACF;;AAEA;EACE,oCAAA,EAAA,QAAA;AACF;;AAEA;EACE,UAAA;EACA,eAAA;AACF;;AAEA;EACE,WAAA;EACA,gBAAA;AACF;;AAEA;EACE,cAAA;EACA,aAAA;EACA,2BAAA;EACA,QAAA;AACF;;AAEA;EACE,uBAAA;EACA,sBAAA;EACA,cAAA;EACA,eAAA;EACA,aAAA;EACA,WAAA;AACF","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\n.container {\r\n  margin: 5% 5%;\r\n  padding-left: 5%;\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr;\r\n}\r\n\r\n.card-header {\r\n  display: grid;\r\n  grid-template-columns: 2fr 1fr;\r\n  margin-top: 16%;\r\n}\r\n\r\n.card {\r\n  width: 40%;\r\n}\r\n\r\n.score-list {\r\n  list-style: none;\r\n  border: 2px solid black;\r\n  margin-top: 17px;\r\n}\r\n\r\n.score-list li:nth-child(even) {\r\n  background-color: rgb(207, 229, 247); /* Red */\r\n}\r\n\r\n.add-new {\r\n  width: 30%;\r\n  margin-top: 10%;\r\n}\r\n\r\n#add-btn {\r\n  width: 50px;\r\n  margin-left: 73%;\r\n}\r\n\r\n#my-form {\r\n  margin-top: 5%;\r\n  display: grid;\r\n  grid-template-rows: 1fr 1fr;\r\n  gap: 15%;\r\n}\r\n\r\nfooter {\r\n  border: 2px solid black;\r\n  background-color: aqua;\r\n  padding: 0.2em;\r\n  position: fixed;\r\n  bottom: 0.4em;\r\n  width: 100%;\r\n}"],"sourceRoot":""}]);
+  text-align: center;
+}`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;;EAEE,yBAAA;AACF;;AAEA;EACE,cAAA;EACA,eAAA;AACF;;AAEA;EACE,gBAAA;EACA,uBAAA;EACA,gBAAA;AACF;;AAEA;EACE,kBAAA;AACF;;AAEA;EACE,oCAAA,EAAA,QAAA;AACF;;AAEA;EACE,kBAAA;AACF","sourcesContent":["header,\r\nfooter {\r\n  background-color: #007bff;\r\n}\r\n\r\n.main-card {\r\n  margin-top: 4%;\r\n  margin-left: 3%;\r\n}\r\n\r\n.score-list {\r\n  list-style: none;\r\n  border: 2px solid black;\r\n  margin-top: 17px;\r\n}\r\n\r\n.score-list li {\r\n  margin-left: -30px;\r\n}\r\n\r\n.score-list li:nth-child(even) {\r\n  background-color: rgb(207, 229, 247); /* Red */\r\n}\r\n\r\nfooter {\r\n  text-align: center;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
