@@ -15,22 +15,23 @@
             <h1>Leaderboard</h1>
             <div class="card-header">
                 <h2>Recent Scores</h2>
-                <button>Refresh</button>
+                <button id="ref-btn">Refresh</button>
             </div>
-            <ul class="score-list">
-                <li>Name: 100</li>
-                <li>Name: 500</li>
-                <li>Name: 400</li>
-                <li>Name: 300</li>
-            </ul>
+            <ul id="score-list" class="score-list"></ul>
 
         </div>
         <div class="add-new">
             <h2>Add your score</h2>
-            <input id="name" placeholder="Your Name" type="text">
-            <input id="score" placeholder="Your Score" type="text">
-            <button id="add-btn" type="button">Submit</button>
+            <form id="my-form" action="">
+                <input id="name" placeholder="Your Name" type="text">
+                <input id="point" placeholder="Your Score" type="text">
+                <button type="submit" id="add-btn" type="button">Submit</button>
+            </form>
+
         </div>
     </div>
+    <footer>
+        <p>Copyright &copy; Mohammad Yaser</p>
+    </footer>
 
 </html>
